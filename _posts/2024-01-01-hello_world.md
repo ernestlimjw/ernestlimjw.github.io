@@ -7,8 +7,10 @@ tag: [like, comment, subscribe]
 ---
 
 
-# Thanks For Watching!
-Please like comment and subscribe to Gerald Tui Youtube for more videos just like this one.
+# Testing an update 
+
+Hey what happens when I do this?
+
 ## Heading 2
 
 ```
