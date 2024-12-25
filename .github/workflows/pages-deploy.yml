@@ -54,7 +54,6 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
             --disable-external \
-            --url-ignore "https://fonts.googleapis.com,https://fonts.gstatic.com,https://www.linkedin.com"
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
