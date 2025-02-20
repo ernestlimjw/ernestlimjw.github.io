@@ -1,0 +1,5 @@
+/* Hide Categories in sidebar */
+a[href*="/categories"],
+a[href$="/categories/"] {
+  display: none !important;
+} 

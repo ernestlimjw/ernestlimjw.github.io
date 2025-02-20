@@ -195,6 +195,10 @@ defaults:
 
 sass:
   style: compressed
+  sourcemap: never
+  load_paths:
+    - _sass
+    - assets/css
 
 compress_html:
   clippings: all
