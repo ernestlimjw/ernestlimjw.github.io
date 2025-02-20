@@ -12,7 +12,7 @@ These were my 3 words for 2021:
 * Compound
 * Create
 
-You can see why I believe selecting 3 words is so powerful, and how I selected these words on a a <a href="{% post_url 2022-01-10-3words2021 %}">previous post</a>.
+You can see why I believe selecting 3 words is so powerful, and how I selected these words on a a <a href="{% post_url 2022-01-10-threewords2021 %}">previous post</a>.
 
 # Build
 
