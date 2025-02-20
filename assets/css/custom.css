@@ -2,4 +2,55 @@
 a[href*="/categories"],
 a[href$="/categories/"] {
   display: none !important;
+}
+
+/* Reading List Styles */
+.reading-list {
+  margin-top: 2rem;
+}
+
+.book-category {
+  margin-bottom: 3rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.book-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.book-author {
+  color: var(--text-muted-color);
+  font-style: italic;
+  margin: 0.25rem 0;
+}
+
+.book-description {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 } 

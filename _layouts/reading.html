@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="reading-list">
+  {% if page.books %}
+    {% for category in page.books %}
+      <div class="book-category">
+        <h2>{{ category.name }}</h2>
+        <div class="book-grid">
+          {% for book in category.items %}
+            <div class="book-card">
+              {% if book.cover %}
+                <img src="{{ book.cover }}" alt="{{ book.title }}" class="book-cover">
+              {% endif %}
+              <h3 class="book-title">{{ book.title }}</h3>
+              <p class="book-author">by {{ book.author }}</p>
+              {% if book.description %}
+                <p class="book-description">{{ book.description }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div> 

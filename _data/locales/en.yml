@@ -14,6 +14,8 @@ tabs:
   tags: Tags
   archives: Blog
   about: About
+  reading: Reading
+  papers: Papers
 
 # the text displayed in the search bar & search results
 search:
